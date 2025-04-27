@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(28, 27, 27);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Sofia", sans-serif;
+}
+.container{
+    width: 28%;
+}
+.card{
+    background-color: rgb(43, 40, 40);
+    box-shadow: 5px 5px 10px rgb(65, 63, 63), -5px -5px 10px rgb(54, 53, 53);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button{
+    height: 40px;
+    border-radius: 40px;
+    width: 30%;
+    color: black;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 10px rgb(136, 129, 129), -5px -5px 10px rgb(113, 111, 111);
+}
+.card h4{
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0rem 0;
+}
+img #icon{
+    width: 20%;
+}
+#Weather{
+    text-transform: capitalize;
+}
+button.refresh{
+    width: 100px;
+    display: block;
+    margin: 5px auto;
+    background: transparent;
+    border: 0px;
+    color: aliceblue;
+    font-size: 30px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(65, 63, 63), -5px -5px 10px rgb(54, 53, 53);
+}
+button.refresh:hover,
+button:hover{
+    box-shadow: inset 5px 5px 10px rgb(65, 63, 63), inset -5px -5px 10px rgb(54, 53, 53);
+    cursor: pointer;
+}
