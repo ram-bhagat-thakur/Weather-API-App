@@ -62,3 +62,13 @@ button:hover{
     box-shadow: inset 5px 5px 10px rgb(65, 63, 63), inset -5px -5px 10px rgb(54, 53, 53);
     cursor: pointer;
 }
+@media(min-width:420px){
+    .container{
+        width: 80%;
+    }
+}
+@media(min-width:500px){
+    .container{
+        width: 26%;
+    }
+}
