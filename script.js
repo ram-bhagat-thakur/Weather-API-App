@@ -17,4 +17,3 @@ else{
     console.log("The city data is not found");
 }
 request.send();
-}
