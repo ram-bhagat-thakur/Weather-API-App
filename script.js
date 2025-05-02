@@ -1,4 +1,4 @@
-link="https://api.openweathermap.org/data/2.5/weather?lat=26.349033&lon=86.243153&appid=b74b65351183caf941a3123b0fcf20cd";
+link="https://api.openweathermap.org/data/2.5/weather?lat=26.459446&lon=86.271721&appid=b74b65351183caf941a3123b0fcf20cd";
 
 var request=new XMLHttpRequest();
 request.open('GET',link,true);
