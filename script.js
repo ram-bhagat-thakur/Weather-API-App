@@ -1,9 +1,4 @@
-
-document.getElementById('search').onclick=function(){
-lat=document.getElementById('lat').value;
-lon=document.getElementById('lon').value;
-address="https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&appid=b74b65351183caf941a3123b0fcf20cd";
-link=address;
+link="https://api.openweathermap.org/data/2.5/weather?lat=26.349033&lon=86.243153&appid=b74b65351183caf941a3123b0fcf20cd";
 
 var request=new XMLHttpRequest();
 request.open('GET',link,true);
